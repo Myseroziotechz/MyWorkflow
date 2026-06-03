@@ -537,7 +537,6 @@ function generateCodegenRegistry(): void {
 
   if (entries.length === 0) {
     console.log("No codegen templates generated");
-    return;
   }
 
   // Generate template string literals
